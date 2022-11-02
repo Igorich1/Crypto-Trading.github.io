@@ -1,0 +1,276 @@
+.img-galaxy {
+    /* background-color: #000000; */
+width: 100%;
+    padding-top: 126px;
+    position: absolute; 
+    z-index: -1;
+}
+.cryptocurrency-gradient__top{
+    width: 1185px;
+height: 703px;
+left: 50%;
+    top: 17%;
+background: linear-gradient(180deg, rgba(0, 65, 218, 0.115) 0%, rgba(40, 0, 153, 0.115) 91.72%);
+filter: blur(100px);
+border-radius: 2.71815e+07px;
+transform: rotate(131.65deg);
+position: absolute;
+}
+
+.cryptocurrency-gradient__bottom{
+    right: 50%;
+    top: 43%;
+    position: absolute;
+    width: 1185.68px;
+height: 703.47px;
+background: linear-gradient(180deg, rgba(0, 65, 218, 0.161) 0%, rgba(40, 0, 153, 0.161) 91.72%);
+filter: blur(100px);
+border-radius: 2.71815e+07px;
+transform: rotate(131.65deg);
+}
+
+.img-galaxy__mobail {
+    display: none;
+}
+
+.mouse-container {
+    display: flex;
+    padding-top: 117px;
+
+}
+
+.mouse {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 2.5px solid white;
+    border-radius: 17px;
+    height: 24px;
+    width: 12px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.mouse-scroll {
+    height: 6px;
+    width: 2px;
+    background: white;
+    margin-top: 3px;
+    border-radius: 17px;
+}
+
+.container-title__technologies {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 130px;
+}
+
+.title-about {
+    font-family: 'Mazzard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #AAAAAA;
+
+}
+
+.title-global {
+
+    font-family: 'Mazzard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.chart-img {
+    margin-left: 161px;
+    margin-top: 64px;
+}
+
+.chart-mobail__img {
+    display: none;
+
+}
+
+.section {
+    display: flex;
+}
+
+.container-description {
+    padding-left: 181px;
+    padding-top: 109px;
+}
+
+.title-description {
+    font-family: 'Mazzard';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+.text-description {
+    width: 308px;
+    font-family: 'Mazzard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #E9E9E9;
+}
+
+.text-description__bottom {
+    margin-top: 6px;
+}
+
+.container-description__top {
+    padding-top: 17px;
+    display: flex;
+    align-items: baseline;
+}
+
+.container-description__bottom {
+    display: flex;
+    align-items: baseline;
+}
+
+.arrow-blue {
+    margin-right: 16px;
+    height: 0px;
+    width: 0px;
+    border: 8px solid;
+    border-color:
+        #0A6FFF #0A6FFF transparent transparent;
+    transform: rotate(45deg);
+}
+
+.arrow-red {
+    margin-right: 16px;
+
+    height: 0px;
+    width: 0px;
+    border: 8px solid;
+    border-color:
+        #FF2B77 #FF2B77 transparent transparent;
+    transform: rotate(45deg);
+
+
+}
+
+.container-button__technologies {
+    padding-top: 26px;
+}
+
+.button-technologies {
+    font-family: 'Mazzard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+
+    width: 205px;
+    height: 62px;
+
+    background: linear-gradient(140.6deg, #3E6FF9 -27.18%, #3E53F8 126.06%);
+
+    box-shadow: 0px 0px 49px rgba(42, 7, 254, 0.4);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 390px) {
+    .c
+
+    .container-technologies {
+        background: #000000;
+        z-index: -1;
+        position: relative;
+    }
+
+    .img-galaxy {
+        display: none;
+    }
+
+    .img-galaxy__mobail {
+        display: flex;
+        position: absolute;
+    }
+
+    .chart-img {
+        display: none;
+    }
+
+    .chart-mobail__img {
+        display: flex;
+        padding-top: 26px;
+    padding-left: 14px;
+    /* margin-top: -239px; */
+    }
+    
+    .mouse-container{
+        display: none;
+    }
+
+    .container-title__technologies{
+        display: flex;
+        text-align: center;
+        padding-top: 69px;
+    }
+    .section {
+        margin-top: 12px;
+        display: flex;
+        flex-direction: column;
+    }
+
+   
+
+    .title-description{
+        font-size: 22px;
+    }
+
+.text-description{
+    width: 285px;
+
+}
+
+    .title-about{
+        line-height: 0;
+    }
+    .title-global{
+        display: flex;
+        width: 2px;
+        margin-right: auto;
+        margin-left: 84px;
+    }
+    .container-description{
+        padding-top: 32px;
+        padding-left: 26px;
+    }
+
+.container-description__top{
+    padding-top: 0;
+}
+
+
+.container-button__technologies{
+    padding-top: 9px;
+    padding-left: 4px;
+  
+}
+.button-technologies{
+    width: 190px;
+    height: 60px;
+
+
+}
+
+}

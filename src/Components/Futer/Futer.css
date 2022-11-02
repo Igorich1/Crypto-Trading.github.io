@@ -1,0 +1,316 @@
+
+
+
+.footer-container {
+    display: flex;
+
+    margin-top: 182px;
+    margin-left: 135px;
+}
+
+.container-spot__margin {
+    position: relative;
+    width: 464px;
+    height: 691px;
+    background: #0A0A0D;
+    border: #555864 solid 0.5px;
+    border-radius: 46px;
+    box-shadow: inset 1px 1px 1px 1px rgba(255, 255, 255, 0.14);
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    overflow: hidden;
+    /* animation: mymove 1s infinite alternate; */
+    /* transition: transform 10s; */
+
+
+}
+
+
+
+
+/* .code-image {
+    position: absolute;
+    bottom: 0;
+} */
+.code-image__mb{
+    display: none;
+}
+.box-shadey {
+    margin-left: 30px;
+
+}
+
+.title-shadey {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #AAAAAA;
+}
+
+.midle-text {
+    margin: 36px 0px;
+    width: 223px;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 112%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    opacity: 0.9;
+    margin-top: 24%;
+}
+
+.midle-derivatives {
+    width: 182px;
+}
+
+.midle-text__shadey {
+    margin: 50px 0px;
+    font-size: 48px;
+    width: 310px;
+    line-height: 103%;
+}
+
+.title-derivatives {
+    /* margin-top: 4px; */
+    font-size: 16px;
+}
+
+
+.container-right {
+    margin-left: 30px;
+}
+
+.block {
+    display: flex;
+    gap: 36px;
+    margin-bottom: 30px;
+}
+
+
+.container-derivatives__text {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-top: 30px;
+    margin-left: 30px;
+
+
+}
+
+.numerical-color {
+    background: linear-gradient(89.95deg, #487FFF -1.65%, #73B5FF 51.06%, #CB76FF 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.shadey-learn__more {
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 18px;
+    color: #AAAAAA;
+}
+
+.container-derivatives {
+    width: 320px;
+    height: 358px;
+    background: #0A0A0D;
+    border-radius: 46px;
+    border: #555864 solid 0.5px;
+
+}
+
+.container-trading__arena {
+
+    width: 320px;
+    height: 358px;
+    background: #0A0A0D;
+    border: #555864 solid 0.5px;
+    border-radius: 46px;
+}
+
+.container-mobile__app {
+    overflow: hidden;
+    background: #0A0A0D;
+    border-radius: 46px;
+    width: 676px;
+    height: 303px;
+    border: #555864 solid 0.5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: flex-end;
+
+    box-shadow: inset 1px 1px 1px 1px rgba(255, 255, 255, 0.14);
+
+margin-top: -14px;
+
+}
+
+
+
+.gradient-mobile{
+    top: 15%;
+    left: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, rgba(255, 255, 255, 0.07) 0%, rgba(196, 196, 196, 0) 100%);
+opacity: 0.68;
+}
+
+
+.schema-img__mb {
+    display: none;
+}
+
+.box-mobile__text {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    margin-left: 16px;
+}
+
+.title-shadey__mobile {
+    margin-top: 27px;
+}
+
+.midle-text__mobile {
+    width: 312px;
+    margin-top: 19%;
+}
+
+.shadey-learn__mobile {
+    margin-top: 33px;
+}
+
+.text-container-footer {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 51%;
+}
+
+.learn-derivatives {
+
+    margin-top: 28px;
+
+}
+.gradient-futer{
+    right: 44%;
+    width: 923.19px;
+    height: 580.96px;
+    background: linear-gradient(0deg, rgba(87, 87, 87, 0.23), rgba(87, 87, 87, 0.23));
+    filter: blur(100px);
+    border-radius: 2.71815e+07px;
+    transform: rotate(157.5deg);
+position: absolute;
+}
+
+@media only screen and (max-width: 390px) {
+    .schema-img {
+        display: none;
+    }
+
+    .schema-img__mb {
+        display: block;
+        position: absolute;
+        top: 47%;
+        left: 25%;
+    }
+    .code-image{
+        display: none;
+    }
+
+    .code-image__mb{
+        padding-top: 142px;
+        position: absolute;
+        display: block;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        margin-left: 28px;
+
+        margin-top: 95px;
+    }
+
+    .container-right {
+        margin-left: 0;
+    }
+
+
+
+    .container-mobile__app {
+        position: relative;
+        display: block;
+        width: 334px;
+        height: 426px;
+        margin-top: -5px;
+
+    }
+
+    .container-derivatives {
+        width: 334px;
+        height: 304px;
+        margin-top: 24px;
+    }
+
+    .container-trading__arena {
+        width: 332px;
+        height: 305px;
+        margin-top: -12px;
+    }
+
+
+    .container-spot__margin {
+        width: 334px;
+        height: 474px;
+    }
+
+    .text-container-footer {
+        top: 5%;
+    }
+
+    .block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title-derivatives {
+        margin-top: 3px;
+        font-size: 15px;
+        line-height: 0;
+    }
+    .shadey-learn__more{
+        font-size: 20px;
+    }
+
+    .learn-derivatives {
+        margin-top: -7px;
+        font-size: 14px;
+    }
+    .box-mobile__text{
+        margin-left: 24px;
+    }
+
+    .midle-text {
+        margin: 63px 0px;
+        font-size: 32px;
+    }
+    .midle-text__mobile{
+        margin: 50px 0;
+    }
+
+    .midle-text__shadey {
+        margin: 38px 0px;
+        font-size: 34px;
+        width: 242px;
+    }
+    .shadey-learn__mobile {
+        margin-top: 4px;
+        font-size: 16px;
+    }
+}

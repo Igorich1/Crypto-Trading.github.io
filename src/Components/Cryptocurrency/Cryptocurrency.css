@@ -1,0 +1,372 @@
+
+.container-cryptocurrency {
+
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    padding-top: 179px;
+    padding-left: 0px;
+}
+
+.container-img__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chain-container {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 135px;
+}
+
+/* .chain-container:first-child{
+    margin-right: 30px;
+} */
+
+.chain-small {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    width: 216px;
+    height: 292px;
+    border: #555864 solid 0.5px;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(98, 93, 93, 0.15) 0%, rgba(85, 81, 81, 0) 100%);
+    backdrop-filter: blur(12.6195px);
+    border-radius: 25.2389px;
+    position: relative;
+}
+
+.chain-small__button {
+    margin-top: 42px;
+    gap: 27px;
+    display: flex;
+    flex-direction: column;
+}
+
+.small__button__mobile {
+    display: flex;
+    gap: 27px;
+    flex-direction: column;
+}
+
+
+
+.chain-big {
+    /* margin-left: 32px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 265.91px;
+    height: 379.49px;
+    border: #555864 solid 0.5px;
+    border-radius: 25.2389px;
+    background: radial-gradient(100% 100% at 0% 0%, rgba(48, 48, 48, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+    backdrop-filter: blur(12.6195px);
+
+}
+
+.container-chain__big {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container-cryptocurrency__bottom {
+    padding-top: 54px;
+    padding-left: 35px;
+}
+
+.block-chain__big {
+    display: grid;
+    align-items: center;
+
+    gap: 38px;
+    margin-top: 25px;
+}
+
+.img-star {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.chain-middle {
+    /* margin-left: 10px; */
+    margin-top: 4px;
+    gap: 37px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 230px;
+    position: relative;
+}
+
+.chain-middle:before {
+    content: "";
+    height: 99px;
+    width: 1px;
+    position: absolute;
+    left: 19px;
+    top: calc(21% - 7px);
+    background: #B7B6BB;
+}
+
+
+.chain-big__title {
+    margin-top: -4px;
+    width: 192px;
+    height: 60px;
+    font-family: 'Mazzard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.cryptocurrency-bottom {
+    margin-top: 33px;
+    font-family: 'Mazzard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16.225px;
+    line-height: 170%;
+    color: #FFFFFF;
+    border: 0.901391px solid #000000;
+}
+
+.container-cryptocurrency__title {
+    margin-left: 49px;
+}
+
+.cryptocurrency-title {
+    width: 319px;
+    font-family: 'Mazzard';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.cryptocurrency-title__gray {
+    letter-spacing: 0.02em;
+    color: #AAAAAA;
+}
+
+.cryptocurrency-title__blue {
+    background: linear-gradient(89.95deg, #487FFF -1.65%, #73B5FF 51.06%, #CB76FF 99.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
+}
+
+.cryptocurrency-title__middle {
+    /* margin-top: 85px; */
+    width: 385px;
+    font-family: 'Mazzard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.title-link {
+    font-family: 'Mazzard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: #7B93FF;
+
+}
+
+.container-arrow {
+    display: flex;
+}
+
+.chain-big-arrow {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: rotate(180deg);
+
+}
+
+.chain-big-arrow--reverse {
+    transform: rotate(0deg);
+    margin-left: 16px;
+    margin-top: 10px;
+}
+
+.chain-big-arrow__symbol {
+    color: rgba(177, 178, 186, 1);
+    transform: rotate(0deg);
+    margin-bottom: -8px;
+    margin-right: 2px;
+
+
+}
+
+.chain-big-arrow__line {
+    width: 3px;
+    height: 83px;
+    background: linear-gradient(90deg, #F1F1F1 0%, rgba(255, 255, 255, 0) 102.25%);
+}
+
+@media only screen and (max-width: 390px) {
+
+    .chain-middle:before {
+        content: "";
+        height: 2px;
+        width: 166px;
+        position: absolute;
+        left: 85px;
+        top: calc(-28% - 8px);
+        background: #B7B6BB;
+    }
+
+
+
+    .container-arrow {
+        position: absolute;
+        bottom: -32px;
+
+    }
+
+    .chain-big-arrow__line {
+        height: 52px;
+    }
+
+
+
+
+    .block-chain__big {
+        display: flex;
+        flex-direction: row;
+        gap: 37px;
+    }
+
+    .container-cryptocurrency {
+        background: #000000;
+        z-index: -1;
+        /* position: absolute; */
+        flex-wrap: wrap-reverse;
+        padding-top: 70px;
+
+        /* justify-content: flex-end; */
+        /* margin-right: 28px; */
+    }
+
+    .chain-container {
+        margin-left: 27px;
+        margin-top: 23px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-img__title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 6px;
+        margin-bottom: 60px;
+    }
+
+    .chain-small {
+        width: 334px;
+        height: 180px;
+        /* background: #7B93FF; */
+
+        background: radial-gradient(100% 100% at 0% 0%, rgba(48, 48, 48, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+        box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
+        backdrop-filter: blur(14px);
+        margin-top: 28px;
+        border-radius: 28px;
+    }
+
+    .container-chain__big {
+        margin-top: 36px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .chain-big__title {
+        width: 200px;
+    }
+
+
+    .chain-middle {
+        margin-top: 54px;
+        gap: 37px;
+        width: 332px;
+        flex-direction: row;
+    }
+
+    .chain-big {
+        display: flex;
+        flex-direction: column-reverse;
+        background: radial-gradient(100% 100% at 0% 0%, rgba(48, 48, 48, 0.15) 0%, rgba(255, 255, 255, 0) 100%);
+        box-shadow: inset -5px -5px 250px rgba(255, 255, 255, 0.02);
+        backdrop-filter: blur(14px);
+
+        /* background: #487FFF; */
+        width: 334px;
+        height: 276px;
+        border-radius: 28px;
+    }
+
+    .cryptocurrency-title {
+        line-height: 97%;
+    }
+
+    .cryptocurrency-title__middle {
+        width: 340px;
+        font-size: 19px;
+        line-height: 128%;
+    }
+
+    .container-cryptocurrency__title {
+
+        margin-left: 28px;
+    }
+
+    .title-link {
+        font-size: 18px;
+    }
+
+    .chain-small__button {
+        flex-direction: column-reverse;
+        margin-top: 17px;
+        gap: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .small__button__mobile {
+        display: flex;
+        gap: 36px;
+        margin-top: 7px;
+        flex-direction: revert;
+
+    }
+
+    .container-cryptocurrency__bottom {
+        padding-top: 48px;
+        padding-left: 0px;
+    }
+
+
+}

@@ -1,0 +1,150 @@
+.chain-item {
+    font-family: 'Mazzard';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14.4222px;
+    line-height: 170%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    color: #FFFFFF;
+    width: 162.25px;
+    height: 52.28px;
+    background: #000000;
+    border-radius: 10.8167px;
+    border: #555864 solid 0.8px;
+}
+
+.chain-item::after {
+    content: "";
+    width: 27px;
+    height: 1px;
+    background: linear-gradient(90deg, #B7B6BB 0%, #5E5971 102.25%);
+    position: absolute;
+    right: -27px;
+}
+
+
+
+.chain-item--small {
+    font-size: 16.5px;
+    height: 68px;
+}
+
+.chain-item--long-line::after {
+    right: -47px;
+    width: 47px;
+}
+
+.chain-item--long-left::after {
+    left: -83px;
+    width: 83px;
+}
+
+.chain-item--middle::after {
+    left: -15px;
+    width: 15px;
+}
+
+
+
+@media only screen and (max-width: 390px) {
+   
+    .chain-middle__mobile{
+height: 60px;
+    }
+
+
+    .chain-item--mobile {
+        width: 130px;
+        height: 58px;
+    }
+
+    .chain-item--middle::after {
+
+        content: "";
+        height: 2px;
+        width: 165px;
+        position: absolute;
+        left: 85px;
+        top: calc(-25% - 7px);
+        background: #B7B6BB;
+        transform: rotate(0deg);
+    }
+
+
+
+    .chain-item--long-left::after {
+        display: none;
+    }
+
+
+
+    .chain-item::after {
+        display: none;
+    }
+
+    .chain-item::before {
+        content: "";
+        width: 1px;
+        height: 25px;
+        background: linear-gradient(90deg, #B7B6BB 0%, #5E5971 102.25%);
+        position: absolute;
+        bottom: -26px;
+        right: 47.5%;
+    }
+
+    .long-line__middle::before {
+      
+    content: "";
+    width: 1px;
+    height: 141px;
+    background: linear-gradient(90deg, #B7B6BB 0%, #5E5971 102.25%);
+    position: absolute;
+    top: 52px;
+    right: 48.5%;
+
+    }
+
+    .chain-item--middle::before{
+        content: "";
+        width: 1px;
+        height: 24px;
+        background: linear-gradient(90deg, #B7B6BB 0%, #5E5971 102.25%);
+        position: absolute;
+        top: -25px;
+        right: 41.5%;
+    }
+
+    .chain-item--long-left::before{
+        content: "";
+        width: 1px;
+        height: 53px;
+        background: linear-gradient(90deg, #B7B6BB 0%, #5E5971 102.25%);
+        position: absolute;
+        top: -54px;
+        right: 47.5%;
+    }
+
+    .chain-item--middle-right{
+        content: "";
+        width: 1px;
+        height: 60px;
+        background: linear-gradient(90deg, #B7B6BB 0%, #5E5971 102.25%);
+        position: absolute;
+        top: -57px;
+        right: 53.5%;
+    }
+.chain-item--mobile-right::before{
+    content: "";
+    width: 1px;
+    height: 25px;
+    background: linear-gradient(90deg, #B7B6BB 0%, #5E5971 102.25%);
+    position: absolute;
+    top: -26px;
+    right: 54.5%;
+}
+
+}
